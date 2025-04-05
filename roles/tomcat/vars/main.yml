@@ -1,0 +1,18 @@
+---
+# vars file for tomcat
+pkg1: tomcat10
+pkg2: tomcat10-admin
+state1: present
+cache1: yes
+cache2: no
+file1: tomcat-users.xml
+dest1: /etc/tomcat10
+port1: 8080
+port2: 9090
+path1: /etc/tomcat10/server.xml
+seconds: 30
+state2: restarted
+server1: http://172.31.91.184:9090
+server2: http://172.31.87.135:9090
+status: 200
+...
